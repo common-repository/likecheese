@@ -1,0 +1,36 @@
+/* Non important stylistic details removed for brevity <3 */
+
+
+
+.elizabethneedsabignap {}.elizabethneedsabignapalignnone {}  
+/*.elizabethneedsabignapalignleft {display: flex; flex-direction: column; float:left; padding-right: 15px;}*/
+.elizabethneedsabignapalignleft {float:left; margin:0 1em 1em 0;}
+/*.elizabethneedsabignapalignright {display: flex; flex-direction: column; justify-content: flex-end; float:right; padding-left: 10px;}*/
+.elizabethneedsabignapalignright {float:right; margin: 0 0 1em 1em; clear:both;}
+/*.elizabethneedsabignapaligncenter {display: flex; flex-direction: column; justify-content:center;*//* display:table;  max-width:60%; margin:0 auto}*/
+.elizabethneedsabignapaligncenter {display: block; margin-left: auto; margin-right: auto;}
+
+.elizabethneedsabignapalignleft img,.elizabethneedsanapalignright img,.elizabethneedsanapaligncenter img{margin:0!important}
+
+
+
+.item1{order: 1;}
+.item2{order: 2;}
+.item2left{order: 2;} 
+.item2center{order: 2;  margin: auto;}
+.item2right{order: 2;} 
+
+.flirty {display: flex; flex-direction: column;}
+.flirt1{order: 1;}
+.flirt2{order: 2;}
+
+@media (max-width:800px) {
+.elizabethneedsabignapalignleft,.elizabethneedsabignapalignright,.elizabethneedsabignapaligncenter{ float:none; display:block; margin:0 auto; padding:0; }
+.elizabethneedsabignapalignleft img,.elizabethneedsabignapalignright img,.elizabethneedsabignapaligncenter img,.elizabethneedsabignapaligncenter{max-width: 100%; float: none!important; margin:0 auto 20px auto!important; display: block!important;}
+
+}
+ 
+
+  
+
+
